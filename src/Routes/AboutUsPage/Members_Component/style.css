@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.maindiv1
+{
+    width: 234px;
+    height: auto;
+}
+.imagediv
+{
+    /* background-image: url(../../../Data/amalalex.png); */
+    width: 234px;
+    height: 234px;
+    background-repeat: no-repeat;
+    background-repeat: round;
+    margin-top: 50px;
+    /* padding-top: 50px; */
+}
+
+.name
+{
+    font-family: 'Poppins', sans-serif;
+    color: #1D4A99;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.designation
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #838383;
+    font-size: 12px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.email
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #838383;
+    font-size: 8px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.modalclass
+{
+    width:50%;
+    border: none;
+    padding: 4px;
+    text-align: center;
+    margin-top: 2px;
+    display: flex;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.contentdiv
+{
+    display: none;
+    width: 230px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #181f29;
+    padding: 4px;
+    border-radius: 5%;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 5px;
+    padding-top: 8px;
+    /* font-weight: 600; */
+}
+
+.contentdiv h2
+{
+    font-size: 15px;
+}
+.contentdiv p
+{
+    font-size: 12px;
+}
+.containerdiv
+{
+    margin-bottom: 100px;
+}
+
+/* .containerdiv:hover .contentdiv {display: block;} */
+.tooltipdiv
+{
+    display:none;
+    position: absolute;
+    width: 234px;
+    border: 1px solid grey;
+    border-radius: 8%;
+    padding: 5px;
+    text-align: justify;
+    background-color: #1d1c1c;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 70px;
+    /* margin-bottom: 200px; */
+    /* top: 100px; */
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.maindiv1:hover .tooltipdiv{display: block;}
